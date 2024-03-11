@@ -1,0 +1,50 @@
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.nav__vrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 0px;
+}
+.blok{
+    display: flex;
+    gap: 40px;
+}
+.blok a:hover{
+    color: #0082F4;
+    border-bottom: 2px solid #0082F4;
+}
+.blok a{
+    color: black;
+}
+.nav__menus{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav__menus a:hover{
+    color: #0082F4;
+    border-bottom: 2px solid #0082F4;
+}
+.nav_right_menus{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav_right_menus a{
+    color: black;
+}
+.nav_right_menus a:hover{
+    color: #0082F4;
+    border-bottom: 2px solid #0082F4;
+}
+.images{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
